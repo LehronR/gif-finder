@@ -1,0 +1,22 @@
+{
+  "name": "gify-r",
+  "version": "1.0.0",
+  "description": "GIF finder app",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LehronR/gif-finder.git"
+  },
+  "author": "Lehron Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LehronR/gif-finder/issues"
+  },
+  "homepage": "https://github.com/LehronR/gif-finder#readme",
+  "dependencies": {
+    "@giphy/js-fetch-api": "^1.6.0"
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gif-ter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <h1 class="logo-name">GIF The Moment</h1>
+            <div class="search-bar">
+                <form class="search">
+                    <input type="search" name="search" id="gif-search" placeholder="Search GIF Here">
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section class="trending">
+            <h1 class="trending-header">Trending</h1>
+            <div class="trending-gif-container">
+                <div class="trending-gif"></div>
+            </div>
+        </section>
+        <section class="search-results">
+            <h1 class="results-header">Search Results</h1>
+            <p class="no-search">No search results to display</p>
+            <div id="search-results-gif"></div>
+            <button class="btn load-more"></button>
+        </section>
+    </main>
+   
+    <!-- <button id="next">Load next 25 gifs</button> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
