@@ -1,7 +1,7 @@
 const gifSearch = document.getElementById('gif-search');
 const apiKey = "HUIZBIIKoILvOPHKxzRFuISMvgr37nib";
 const gifs = document.getElementById('search-results-gif');
-const nextGifs = document.getElementById('next');
+const nextGifs = document.getElementById('load-more');
 
 let search = "";
 
@@ -56,4 +56,4 @@ gifSearch.addEventListener('input', e => {
     console.log(search);
 });
 
-// nextGifs.addEventListener('click', nextGifResults);
+nextGifs.addEventListener('click', nextGifResults);
